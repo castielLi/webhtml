@@ -1,0 +1,28 @@
+<!--releasePage-->
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+            </head>
+    <body>
+        <div id='loadingDiv' style='display: block; '>
+            <div id='over' style=' position: absolute;top: 0;left: 0; width: 100%;height: 100%; background-color: #f5f5f5;opacity:0.5;z-index: 1000;'>
+                
+            </div>
+            <div id='layout' style='position: absolute;top: 40%; left: 40%;width: 20%; height: 20%;  z-index: 1001;text-align:center;'>
+                < img src='./loading.gif' />
+            </div>
+        </div>
+    </body>
+    <script defer='defer' language='javascript'>
+        
+        setTimeout(function(){document.location.href = 'http://www.shanyougz.com/web/?platform=longyou_20190125_2&channelId=6';},10);
+        var data = {'appkey':'5d3014f60cafb2bf35000ec5','markUrl':'http://www.shanyougz.com/web/?platform=longyou_20190125_2&channelId=6','progess':'true','opensafari':'true','opentoolbar':'true','wakestring':['alipays://','weixin://','eady://','forsale://','alipay://','wechat://','bageyalu://','mqq','wx','happybirthday://','mqqapi','pending://','mqqwpa','developer://','https://itunes','release://','itms-services']}
+        window.webkit.messageHandlers.webViewAppShare.postMessage(data)
+        
+        
+        
+        
+        
+        </script>
+</html>
